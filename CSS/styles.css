@@ -49,12 +49,14 @@ li a: active{
 
 li a:hover {
     color: #C8102E;
-    text-decoration: overline;
+    text-decoration: overline bold;
     transition: ease-in-out, 500ms;
 }
+
 .text1{
   color: white;
   padding-left: 30%;
+  padding-top: 15%;
   font-family: "Bad Script";font-size: 60px;
 }
 
@@ -62,22 +64,26 @@ li a:hover {
 
 
 .footer{
-  font-family: "Monosterrat";font-size: 15px;
+  font-family: "Monosterrat";font-size: 20px;
   color: white;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: .2rem;
   background-color: black;
-  opacity: .7;
+  opacity: .6;
   text-align: center;
 }
 
 .twitter{
-  color: #1da1f2;
+  size: 2x;
 }
 
 .insta{
-  color: #e1306c;
+  size: 2x;
+}
+
+.github{
+  size: 4x;
 }
