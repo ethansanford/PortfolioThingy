@@ -14,7 +14,7 @@ body {
 .background-image{
   min-height: 100%;
   background-size: cover;
-  background-image: url("../Pictures/creek-environment-flow-602794.jpg")
+  background-image: url("../Pictures/ball-baseball-black-and-white-773063.jpg")
 }
 
 
@@ -44,15 +44,40 @@ li a {
 }
 
 li a: active{
-    color: red;
+    color: #C8102E;
 }
 
 li a:hover {
-    color: orange;
-    text-decoration: none;
+    color: #C8102E;
+    text-decoration: overline;
+    transition: ease-in-out, 500ms;
 }
 .text1{
-  color: orange;
+  color: white;
   padding-left: 30%;
   font-family: "Bad Script";font-size: 60px;
+}
+
+
+
+
+.footer{
+  font-family: "Monosterrat";font-size: 15px;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  opacity: .7;
+  text-align: center;
+}
+
+.twitter{
+  color: #1da1f2;
+}
+
+.insta{
+  color: #e1306c;
 }
