@@ -76,14 +76,17 @@ li a:hover {
   text-align: center;
 }
 
-.twitter{
-  size: 2x;
+.who1{
+  color: white;
+  font-family: "Bad Script";font-size: 50px;
+  text-align: center;
+  padding-top: 3rem;
 }
 
-.insta{
-  size: 2x;
-}
-
-.github{
-  size: 4x;
+.description1{
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  width: 80%;
+  margin-left: 10%;
 }
