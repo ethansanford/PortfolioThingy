@@ -90,11 +90,6 @@ li a:hover {
   text-align: center;
 }
 
-@media (max-width:1020px) {
-  .footer{
-    position: relative;
-  }
-}
 
 
 
@@ -103,27 +98,50 @@ li a:hover {
   color: white;
 
 }
+
+@media (max-width:1020px) {
+  .footer{
+    position: relative;
+    background-color: black;
+    color:white;
+  }
+}
+
+@media (max-height:780px){
+  .footer{
+    position: relative;
+    background-color: black;
+    color: white;
+  }
+  .col-sm-4{
+    background-color: black;
+  }
+}
+
 .who1{
   color: white;
   font-family: "Bad Script";font-size: 50px;
   text-align: center;
   padding-top: 3rem;
+  text-decoration: underline;
 }
 
 .description1{
   color: white;
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 25px;
   width: 80%;
   margin-left: 10%;
 }
 
 
-.portfolio1{
-  font-family:  "Bad Script";font-size: 50px;
+.pagename{
+  font-family:  "Bad Script";
+  font-size: 50px;
   color: white;
   text-align: center;
   padding-top: 3rem;
+  text-decoration: underline;
 }
 
 .description2{
@@ -150,6 +168,8 @@ li a:hover {
   width: 400px;
   height:250px;
   text-align: center;
+  position: relative;
+  padding-bottom: 20px;
 }
 
 .typeform-widget{
