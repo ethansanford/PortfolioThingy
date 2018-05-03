@@ -2,21 +2,19 @@ html {
   width: 100%;
   height: 100%;
   margin: 0;
-
 }
-
 
 body {
   width: 100%;
   height: 100%;
   margin: 0;
 }
+
 .background-image{
   min-height: 100%;
   background-size: cover;
   background-image: url("../Pictures/ball-baseball-black-and-white-773063.jpg")
 }
-
 
 ul {
     list-style-type: none;
@@ -26,7 +24,6 @@ ul {
     background-color: none;
     width: 60;
     position: relative;
-
 }
 
 li {
@@ -64,17 +61,12 @@ li a:hover {
 
 .social2{
   text-align: center;
-
-
 }
 
 .social2 a{
   color: white;
   text-align: center;
-
 }
-
-
 
 .footer{
   font-family: "Times New Roman", Times, serif;
@@ -90,13 +82,8 @@ li a:hover {
   text-align: center;
 }
 
-
-
-
-
 .socialcontainer a{
   color: white;
-
 }
 
 @media (max-width:1020px) {
@@ -112,9 +99,12 @@ li a:hover {
     position: relative;
     background-color: black;
     color: white;
+    opacity: 1;
+    max-height: 400px;
   }
   .col-sm-4{
     background-color: black;
+    opacity: 1;
   }
 }
 
@@ -133,7 +123,6 @@ li a:hover {
   width: 80%;
   margin-left: 10%;
 }
-
 
 .pagename{
   font-family:  "Bad Script";
@@ -161,7 +150,6 @@ li a:hover {
   color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
-
 }
 
 .logo{

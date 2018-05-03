@@ -1,0 +1,43 @@
+.footer{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .2rem;
+  background-color: black;
+  opacity: .6;
+  text-align: center;
+}
+
+
+
+
+
+.socialcontainer a{
+  color: white;
+
+}
+
+@media (max-width:1020px) {
+  .footer{
+    position: relative;
+    background-color: black;
+    color:white;
+  }
+}
+
+@media (max-height:780px){
+  .footer{
+    position: relative;
+    background-color: black;
+    color: white;
+    opacity: 1;
+  }
+  .col-sm-4{
+    background-color: black;
+    opacity: 1;
+  }
+}
